@@ -11,7 +11,7 @@ var minEdad = 18;
             var restaTiempo = Math.abs(hoy.getTime() - fecha_nacimiento.getTime());
 
             //** formula simple de pasar los segundos a días**//
-            var edad = Math.ceil(restaTiempo / (1000 * 3600 * 24)) / 365;
+            var edad = Math.ceil(restaTiempo / (1000 * 3600 * 24)) / 365.3;
 
             //** enviar fecha ¿autorizado o no?**//
             return edad;
